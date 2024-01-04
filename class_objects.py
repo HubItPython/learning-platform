@@ -52,7 +52,8 @@
 # print(person2.greet())     # Output: Hello, my name is Bob and I'm 25 years old.
 
 class A():
-    def __init__(self,aname):
-        self.name=aname
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
         print(self.name)
 obj=A("mohit")
