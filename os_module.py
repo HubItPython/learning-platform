@@ -1,4 +1,4 @@
-# import os
+import os
 # import shutil
 
 # Reading from a File:
@@ -11,9 +11,9 @@
 # with open('new_file.txt', 'w') as file:
 #     file.write('This is some text.')
 
-# # Appending to a File:
-# with open('existing_file.txt', 'a') as file:
-#     file.write('\nThis is appended text.')
+# Appending to a File:/
+# os.remove("nabin.txt")
+# print(bool(os.path.exists("C:/Users/Public/Downloads/file.txt")))
 
 # # Checking if a File Exists:
 # file_exists = os.path.exists('manju.txt')
@@ -33,7 +33,7 @@
 
 # print(converted_time)
 
-# # Copying a File:
+# Copying a File:
 # shutil.copy('source_file.txt', 'destination_file.txt')
 
 # Deleting a File:
@@ -44,7 +44,7 @@
 # # Working with Files and Directories:
 
 # Get the current working directory
-# cwd = os.getcwd()
+cwd = os.getcwd()
 # print("Current working directory:", cwd)
 
 # List files and directories in a specific path
@@ -56,7 +56,7 @@
 # os.mkdir(new_dir)
 
 # Rename a file or directory
-# os.rename('manju.txt', 'mohit.txt')
+# os.rename('mohit.py', 'manju.txt')
 
 # # Delete a file
 # os.remove('file_to_delete.txt')
@@ -105,3 +105,26 @@
 # with open("manju.txt",'r') as f:
 #     print(f.read())
 #     f.close()
+
+
+# f=open("manju.txt",'r')
+# b=f.readlines()
+# f.close()
+# print(b)
+
+# with open("manju.txt",'r') as f:
+#     b=f.read()
+#     print(b)
+
+# 
+# from tkinter import *
+# r=Tk()
+# def login():
+#     r.destroy()
+#     ro=Tk()
+#     ro.mainloop()
+    
+# Label(r,text="hello").pack()
+# Button(r,text="change",command=login).pack()
+# r.mainloop()
+
